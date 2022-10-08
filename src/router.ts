@@ -5,7 +5,7 @@ import { lose } from "./pages/lose";
 import { tie } from "./pages/tie";
 import { welcome } from "./pages/welcome";
 
-const BASE_PATH = "/Desafio-m5-DWF";
+const BASE_PATH = "/desafio-m5";
 
 const routes = [{
     path: /\/welcome/,
