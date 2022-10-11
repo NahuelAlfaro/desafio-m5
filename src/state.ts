@@ -16,6 +16,9 @@ const state = {
 
     init() {
       const data: any = localStorage.getItem("scoreData");
+      if (!data) {
+      return console.log("welcome");
+    }
       this.data.history = JSON.parse(data);
     },
 
